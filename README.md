@@ -45,3 +45,7 @@ $$Z_{load} = R_{load} + jX_{load}$$
 $$V_{load} = I_{load}Z_{load}$$
 $$V_{load} = V_{dL} + jV_{qL}$$
 $$S_{load} = I_{load}^* V_{load}$$
+
+<h3>The result is shown below </h3>
+
+![Figure](results.jpg)
