@@ -48,4 +48,4 @@ $$S_{load} = I_{load}^* V_{load}$$
 
 <h3>The result is shown below </h3>
 
-![Figure](results.jpg)
+![Figure](result.jpg)
