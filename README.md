@@ -4,6 +4,7 @@
 <h3>Synchronous Machine Modelling Equations</h3>
 
 <h4> Differential Equations</h4>
+
 $$T_{d0}' \frac{dE_q'}{dt} = - E_q' - (X_d - X_d') I_d + E_{fd}$$
 $$T_{q0}' \frac{dE_d'}{dt} = -E_d' - (X_q - X_q')I_q$$
 
@@ -23,18 +24,23 @@ $$V_q = E_q' + I_{d}X_d' - I_{q}R_{sg}$$
 
 
 <h3>Turbine/Governor Modelling Equations</h3>
+
 $$T_{sv}\frac{dP_{sv}}{dt} = -P_{sv} + P{ref} - \frac{1}{R_d}\Delta \omega$$
 $$T_{ch} \frac{dT_m}{dt} = - T_m + P_{sv}$$
+
 <h3>Excitation Modelling Equation</h3>
+
 $$T_A \frac{dE_{fd}}{dt} = - E_{fd} + K_A(V_{ref} - V_t)$$
 
 <h3>Transmission Line Equation</h3>
+
 $$L_1\frac{dI_d}{dt} = ω_sL_1I_q - R_1I_{d} + V_d - V_{dL}$$
 
 $$L_1\frac{dI_d}{dt} = -ω_sL_1I_d - R_1I_{q} + V_q - V_{dL}$$
 
 $L_1 = L_s - L_m$,
 $R_1 = R_s - R_m$
+
 <h3>Load Modelling Equations</h3>
 
 $$I_{dL} = I_{d}$$
